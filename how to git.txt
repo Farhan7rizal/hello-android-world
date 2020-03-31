@@ -1,0 +1,243 @@
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 ~
+$ dir
+3D\ Objects
+AndroidStudioProjects
+ansel
+AppData
+Application\ Data
+apps
+Backup
+bin
+cmake
+cobaQGIS1.qgz
+Contacts
+Cookies
+d4ac4633ebd6440fa397b84f1bc94a3c.7z
+Desktop
+Documents
+Downloads
+etc
+Favorites
+georeferencing.qgz
+icons
+IdeaProjects
+include
+inittk.ini
+inst.ini
+Intel
+IntelGraphicsProfiles
+lib
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NetHood
+Nox_share
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{f0d4820d-36c5-11ea-b273-e09b6a7d5b61}.TM.blf
+NTUSER.DAT{f0d4820d-36c5-11ea-b273-e09b6a7d5b61}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{f0d4820d-36c5-11ea-b273-e09b6a7d5b61}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+nuuid.ini
+OneDrive
+OSGeo4W.bat
+OSGeo4W.ico
+Pictures
+postinstall.bat.done
+postinstall.log
+preremove.bat
+preremove-conf.bat
+PrintHood
+PycharmProjects
+Recent
+Roaming
+Saved\ Games
+Searches
+SendTo
+share
+Start\ Menu
+Templates
+uninstall.exe
+useruid.ini
+Videos
+VirtualBox\ VMs
+vmlogs
+webmap101.qgz
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 ~
+$ cd E:
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e
+$ dir
+$RECYCLE.BIN                            JAVA\ JDK                                  T\ I\ M
+AndroidStudio                           javaProgramming                            Temp
+BelajarBikinSI                          KCD                                        TV\ SERIES
+bootstrap\ template\ world              KELOMPOK\ 4\ MOTOR\ BAKAR.doc              Users
+Buku(foto\ to\ Pdf)                     KEMBALIKA\ KE\ FD\ INA                     UTS\ 1\ Panc
+CAMERA\ HP\ BARUU                       Local\ Disk\ 1\ (D)\ -\ Shortcut\ (2).lnk  UTS\ 1\ PKN
+Citrus_scrab.jpg                        Local\ Disk\ 1\ (D)\ -\ Shortcut.lnk       vbsharedfolder
+cramah                                  LOVELYZ\ VIDEOS                            vbsharedfolder\ -\ Shortcut.lnk
+Daun_Pepaya.jpg                         MarioSimple\ Greenfoot                     Video\ or\ image\ to\ edit
+Desktop                                 MATERI\ PAI\ Polije\ 18                    Video\ sembarang
+Document                                MATLAB                                     Videos
+Download\ from\ C                       MYSQL_BACKUP                               VM
+E41171769                               OOP                                        webProgramming
+Farhan\ Rizal\ H\ dan\ Yadribullah      PCSX2\ 1.4.0                               xampp
+Farhan\ Rizal\ H\ dan\ Yadribullah.zip  Pictures                                   xampp\ -\ Copy
+Game                                    Pindahan\ HP                               XAMPP\ lawas
+Game\ Profiles.xml                      Punya\ Ibu\ dan\ Adek\ (Gambar)            xampp2019
+Greenfoot1                              Screen\ record                             xamppPHP7.3.11
+htdocs                                  System\ Volume\ Information                yg\ diluar
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e
+$ cd AndroidStudio/
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio (BARE:master)
+$ dir
+0.AndroTutor                       LinearLayout               NewAndroidStudioDemo         ShowActivity
+ACTwitterClone                     ListViewAdapter            objects                      ShowActivity2
+AlertDialog                        ListViewPkEry              patcher                      ShowActivity3
+androidStudio                      logs                       PetBio                       skins
+Bangkek                            LsepatuApp                 platforms                    sources
+branches                           LspetuWebAndroJustMainSrc  platform-tools               system-images
+build-tools                        MediaPlayerApp             PremiumCleanCareApp          Test1
+CheckBox                           MetersToInches             PremiumCleanCareFix1         TipCalculatorTest
+config                             MiniCalculator             ProjectS4                    ToggleButton
+CRUDRestfulWebServicesCodeIgniter  MusicPlayer                RadioButtons                 tools
+DBIntro                            MusicPlayer2               RecyclerView2                TryMeOriginal
+emulator                           MusicPlayer3               RecyclerViewApp              TryMeOriginal2
+extras                             MusicPlayer4               RecyclerViewApp3             Tugas1
+FirstLook                          MusicPlayer5               RecyclerViewApp4             TugasIntent
+FrameAnimation                     MyActivity                 RecyclerViewTugas            TugasLinear
+gc.log.lock                        MyActivity2                RecylerViewTugas2            TugasLinear2
+HEAD                               MyActivity3                refs                         TugasLinearLayout
+Hello\ Android                     MyApplication              RetrofitExampleCodingInFlow  TugasLineLayout
+HoneyDoList                        MyApplication2             SeekBar                      TugasSharedPref
+hooks                              MyApplication3             SeekBar2                     UberClone
+IntentGetExtras                    MyApplication4             SeekBar3                     VolleyParsing
+KalkulatorSederhana                MyGroceryList              SharedPref
+KotlinAndroidApp                   MyRecyclerView             SharedPrefPkEry
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio (BARE:master)
+$ cd git-android/
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android (BARE:master)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android (BARE:master)
+$ git clone https://github.com/Farhan7rizal/hello-android-world.git
+Cloning into 'hello-android-world'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android (BARE:master)
+$ cd hello-android-world/
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ ls                                                                                                                    README.md
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ touch music.java                                                                                                      
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ ls
+music.java  README.md
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        music.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git add music.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   music.java
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git commit -m "This my first commit" music.java
+[master 45cc910] This my first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 music.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Farhan7rizal/hello-android-world.git
+   c863f5c..45cc910  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ ls                                                                                                                    music.java  README.md
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   music.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git add music.java                                                                                                    
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   music.java
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git commit -m "This my second commit" music.java
+[master 210afb2] This my second commit
+ 1 file changed, 3 insertions(+)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 80.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Farhan7rizal/hello-android-world.git
+   45cc910..210afb2  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/hello-android-world (master)
+$

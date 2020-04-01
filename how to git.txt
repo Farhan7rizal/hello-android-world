@@ -285,3 +285,195 @@ $ git commit -a -m "Commiting multiple files"                                   
  create mode 100644 lion.java
  create mode 100644 paint.java
  create mode 100644 song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (BARE:master)
+$ git init
+Initialized empty Git repository in E:/AndroidStudio/git-android/Android-Git/.git/
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git remote add origin "https://github.com/Farhan7rizal/hello-android-world.git"
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git pull origin master
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 1), reused 8 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+From https://github.com/Farhan7rizal/hello-android-world
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ touch song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ touch paint.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ touch lion.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git add -A
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   lion.java
+        new file:   paint.java
+        new file:   song.java
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git commit -a -m "Commiting multiple files"                                                                           [master 7f53d55] Commiting multiple files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lion.java
+ create mode 100644 paint.java
+ create mode 100644 song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git commit -a -m "Commiting multiple files"
+[master 2e97697] Commiting multiple files
+ 1 file changed, 46 insertions(+), 2 deletions(-)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.05 KiB | 1.05 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Farhan7rizal/hello-android-world.git
+   3d25503..2e97697  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git branch FB                                                                                                         
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git checkout F
+FB           FETCH_HEAD
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git checkout F
+FB           FETCH_HEAD
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git checkout FB
+Switched to branch 'FB'
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ touch mobile.java                                                                                                     
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ ls
+'how to git.txt'   lion.java   mobile.java   music.java   paint.java   README.md   song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git add mobile.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git status
+On branch FB
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   mobile.java
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git commit -m "Java"
+[FB 495af6a] Java
+ 1 file changed, 5 insertions(+)
+ create mode 100644 mobile.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git commit -m "Java mobile changes on First Branch"
+On branch FB
+nothing to commit, working tree clean
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git status                                                                                                            On branch FB
+nothing to commit, working tree clean
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ ls
+'how to git.txt'   lion.java   mobile.java   music.java   paint.java   README.md   song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ ls
+'how to git.txt'   lion.java   music.java   paint.java   README.md   song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git merge FB
+Updating 2e97697..495af6a
+Fast-forward
+ mobile.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 mobile.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ ls
+'how to git.txt'   lion.java   mobile.java   music.java   paint.java   README.md   song.java
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ clear
+
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git checkout FB
+Switched to branch 'FB'
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git commit -a -m "Modified the Mobile.java file inside the first branch"
+[FB aeda9bb] Modified the Mobile.java file inside the first branch
+ 1 file changed, 1 insertion(+)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git status                                                                                                            On branch FB
+nothing to commit, working tree clean
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (FB)
+$ git checkout master                                                                                                   Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ git merge FB                                                                                                          Updating 495af6a..aeda9bb
+Fast-forward
+ mobile.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$ cat mobile.java
+class Mobile {
+        public static void main(String[] args) {
+                System.out.println("Hello World");
+                System.out.println("Hi World");
+        }
+}
+Farhan Rizal Hidayat@DESKTOP-VFU8LTM MINGW64 /e/AndroidStudio/git-android/Android-Git (master)
+$
